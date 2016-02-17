@@ -1,10 +1,10 @@
 'use strict';
-const toString = Object.toString;
 
 module.exports = escapeRegex;
 
 /**
- * Escape regex special characters in `string`.
+ * Escapes the RegExp special characters "^", "$", "\", "/", ".", "*", "+", "?",
+ * "(", ")", "[", "]", "{", "}", "|", ":", "!", and "=" in string.
  *
  * @param {String} string
  * @return {String}
@@ -12,5 +12,5 @@ module.exports = escapeRegex;
  */
 
 function escapeRegex(string){
-    return toString(string).replace(/([?!${}*:()|=^[\]\/\\.+])/g, '\\$1');
+    return ('' + string).replace(/([?!${}*:()|=^[\]\/\\.+])/g, '\\$1');
 }
