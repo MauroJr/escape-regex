@@ -1,0 +1,27 @@
+{
+  "name": "escape-regex",
+  "version": "1.0.0",
+  "description": "Escape regular expression special characters",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MauroJr/escape-regex.git"
+  },
+  "keywords": [
+    "escape",
+    "regex",
+    "regexp",
+    "regular",
+    "expression",
+    "utility"
+  ],
+  "author": "Mauro Junior",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/MauroJr/escape-regex/issues"
+  },
+  "homepage": "https://github.com/MauroJr/escape-regex#readme"
+}
