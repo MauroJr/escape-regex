@@ -5,8 +5,10 @@
 ## Example
 
 ```javascript
+'use strict';
+
 const escapeRegex   = require('escape-regex'),
-      string        = '$tring:(Exemple!);
+      string        = '$tring:(Exemple!)';
 
 console.log(escapeRegex(string));
 // > '\\$tring\\:\\(Exemple\\!\\)'
