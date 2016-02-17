@@ -1,6 +1,6 @@
 {
   "name": "escape-regex",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Escapes the Regular Expression special characters in string.",
   "main": "index.js",
   "scripts": {
@@ -16,12 +16,12 @@
     "regexp",
     "regular",
     "expression",
-    "utils"
+    "utility"
   ],
   "author": "Mauro Junior",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/MauroJr/escape-regex/issues"
+    "url": "https://github.com/MauroJr/escape-regex/issues"
   },
   "homepage": "https://github.com/MauroJr/escape-regex#readme"
 }
