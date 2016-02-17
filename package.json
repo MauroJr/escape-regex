@@ -1,7 +1,7 @@
 {
   "name": "escape-regex",
-  "version": "1.0.0",
-  "description": "Escape regular expression special characters",
+  "version": "1.0.1",
+  "description": "Escapes the Regular Expression special characters in string.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"

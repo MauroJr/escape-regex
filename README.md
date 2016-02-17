@@ -1,4 +1,3 @@
-
 # escape-regex
   
   Escapes the RegExp special characters "^", "$", "\", "/", ".", "*", "+", "?", "(", ")", "[", "]", "{", "}", "|", ":", "!", and "=" in string.
